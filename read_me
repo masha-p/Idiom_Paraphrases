@@ -1,0 +1,42 @@
+This repository contains datasets used in paper “Idiom Paraphrases: Seventh Heaven vs Cloud Nine” published at LSDSem Workshop 2015.
+
+File “idioms_dataset_2432” contains 2432 different idioms and their descriptions.
+For example:
+===========================
+healthy as a horse
+if you are as healthy as a horse you are very healthy
+====================
+
+
+
+Files “test” and “development” contains 1000 and 400 idiom pairs respectively.
+Each pair has a score. 
+Score 1 means that these idioms are paraphrases of each other,
+score 0 corresponds to non-paraphrases.
+
+Several examples.
+A pair of idioms that ARE paraphrases: 
+1 is a score, 
+(1) is first idiom, (2) is second idiom,
+(11) is the definition of the first idiom, 
+(22) is the definition of the second idiom
+
+====================
+1	 
+(1)full_as_a_tick				(2)stuffed_to_the_gills
+(11)if_you_are_as_full_as_a_tick_you_have_eaten_too_much
+(22)if_someone_is_stuffed_to_the_gills_they_have_eaten_a_lot_and_are_very_full
+====================
+
+
+a pair of idioms that are NOT paraphrases:
+
+====================
+0	 
+(1)fight_tooth_and_nail				(2)when_pigs_fly
+(11)if_someone_will_fight_tooth_and_nail_for_something_they_will_not_stop_at_anything_to_get_what_they_want
+(22)meaning_you_will_not_get_something_when_you_want_it_or_someone_does_not_want_something_for_you
+====================
+
+
+Test file contains 364 paraphrase pairs, development has 96 paraphrase pairs.
